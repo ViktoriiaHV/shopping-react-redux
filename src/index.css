@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Nerko+One&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nerko One', cursive;
+}
+
+p {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #6B728E;
+  padding-bottom: 1rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #50577A;
+  border: 1px solid #50577A;
+}
+
+button:hover,
+button:active {
+  background-color: #50577A;
+  border-color: #50577A;
+  color: white;
+}
